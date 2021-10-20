@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/motionLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_motion_layout_ex2_scene"
+    tools:context=".MotionLayout_Ex2"
+    app:showPaths="true"
+    >
+
+    <View
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/button"
+        android:background="@color/purple_200"
+        />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
